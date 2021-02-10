@@ -2,51 +2,21 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-  /* background: #ffffff url("cloudyBG.jpeg") no-repeat top; */
 }
 
 .app {
   padding: 0px 25px;
   font-family: sans-serif;
-  background-color: rgb(10, 10, 58);
-  /* background-image: url(""); */
+  background-color: #1632be; 
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
-}
-/* 
-.app.rain {
-  background-image: url("../rainyBG.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  transition: 0.5s ease;
-  height: 100vh;
 }
 
-.app.clear {
-  background-image: url("../clearBG.jpeg");
+.app-background {
   background-size: cover;
   background-repeat: no-repeat;
   transition: 0.5s ease;
-  height: 100vh;
 }
-
-.app.snow {
-  background-image: url("../snowBG.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  transition: 0.5s ease;
-  height: 100vh;
-}
-
-.app.storm {
-  background-image: url("../stormBG.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  transition: 0.5s ease;
-  height: 100vh;
-} */
 
 .search-box {
   width: 100%;

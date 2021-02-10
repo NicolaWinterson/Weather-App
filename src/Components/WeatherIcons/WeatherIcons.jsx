@@ -8,6 +8,11 @@ const WeatherIcons = ({ weather }) => {
       return (
         <div className="app-cloudy">
           <img
+            className="app-background"
+            src="cloudyBG.jpeg"
+            alt="Clouds background"
+          />
+          <img
             className="weather-icon"
             src="iconfinder_weather-icons-cloudy-3_2087718.svg"
             alt="Clouds Icon"
@@ -17,6 +22,11 @@ const WeatherIcons = ({ weather }) => {
     } else if (weather === "Clear") {
       return (
         <div className="app-clear">
+          <img
+            className="app-background"
+            src="clearBG.jpeg"
+            alt="Clouds background"
+          />
           <img
             className="weather-icon"
             src="iconfinder_weather-icons-sunny_2087721.svg"
@@ -28,6 +38,11 @@ const WeatherIcons = ({ weather }) => {
       return (
         <div className="app-clear">
           <img
+            className="app-background"
+            src="rainyBG.jpeg"
+            alt="rainy background"
+          />
+          <img
             className="weather-icon"
             src="iconfinder_weather-icons-rainy-2_2087714.svg"
             alt="Rain Icon"
@@ -38,15 +53,25 @@ const WeatherIcons = ({ weather }) => {
       return (
         <div className="app-clear">
           <img
+            className="app-background"
+            src="stormBG.jpeg"
+            alt="thunderstorm background"
+          />
+          <img
             className="weather-icon"
             src="iconfinder_weather-icons-stormy_2087712.svg"
-            alt="Srorm Icon"
+            alt="Storm Icon"
           />
         </div>
       );
     } else if (weather === "Snow") {
       return (
         <div className="app-clear">
+          <img
+            className="app-background"
+            src="snowBG.jpeg"
+            alt="snowy background"
+          />
           <img
             className="weather-icon"
             src="iconfinder_weather-icons-snowy_2087713.svg"

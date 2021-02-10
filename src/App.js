@@ -12,13 +12,12 @@ const App = () => {
 
   useEffect(() => {
     
-
     const getWeather = async () => {
       try {
         const URL = `${process.env.REACT_APP_API_BASE}weather?q=${query}&units=metric&APPID=${
           process.env.REACT_APP_API_KEY
         }`;
-        console.log(URL);
+        /* console.log(URL); */
         const response = await fetch(URL, {
           mode: "cors"
         });
