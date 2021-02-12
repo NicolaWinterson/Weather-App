@@ -21,11 +21,12 @@ const App = () => {
         const response = await fetch(URL, {
           mode: "cors"
         });
-        console.log(response);
+        console.log("response is:" + response);
         const data = await response.json();
-        console.log("response done, let's read the json");
+        var stringifiedData = JSON.stringify(data);
+        //console.log("response done, let's read the json" + data)
+        //console.log("that data stringified" + stringifiedData);
         setWeather(data);
-        console.log(data.hits);
       } catch (error) {
         setError(error);
         console.log("it is broken");
