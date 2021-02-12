@@ -24,8 +24,8 @@ const App = () => {
         console.log("response is:" + response);
         const data = await response.json();
         var stringifiedData = JSON.stringify(data);
-        //console.log("response done, let's read the json" + data)
-        //console.log("that data stringified" + stringifiedData);
+        console.log("response done, let's read the json" + data)
+        console.log("that data stringified" + stringifiedData);
         setWeather(data);
       } catch (error) {
         setError(error);
